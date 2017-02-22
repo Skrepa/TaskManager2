@@ -8,12 +8,9 @@ package controller;
 
 import Model.Task;
 import Model.XML;
-import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.HashMap;
 
 /**
  * класс для обработки нотификации
@@ -36,7 +33,7 @@ public class NotificationManager extends Thread {
                 System.exit(1);
             }
             try (Socket s = new Socket(ipAddress, 4444)) {
-                Notification.getInstance().showInfo("Connection established");
+                Notification.getInstance().showInfo("Соединение установлено");
                 while (!s.isInputShutdown()) { // пока соединение открыто
                     Notification.getInstance().show((Task) XML.deserialize(s.getInputStream(), Task.class));
                 }

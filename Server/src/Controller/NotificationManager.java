@@ -9,11 +9,7 @@ import Model.XML;
 import Model.Task;
 import View.View;
 import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Set;
 
 /**
  * класс для обработки нотификации

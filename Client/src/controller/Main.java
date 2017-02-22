@@ -51,10 +51,6 @@ public class Main  {
         notificationManager.setDaemon(true);
         notificationManager.start();
         mainObject.createMenu();
-//        try {
-//            notificationManager.join();
-//        } catch (InterruptedException ex) {
-//        }
     }
 
 }

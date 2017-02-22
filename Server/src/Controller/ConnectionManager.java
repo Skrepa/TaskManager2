@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import javax.xml.bind.JAXBException;
 
 /**
- *
+ *установка соединения
  * @author Daniil
  */
 public class ConnectionManager implements AutoCloseable {

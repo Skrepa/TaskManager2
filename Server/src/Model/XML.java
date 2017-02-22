@@ -20,7 +20,7 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
 /**
- *
+ *сериализация и десериализация
  * @author Daniil
  */
 public class XML {

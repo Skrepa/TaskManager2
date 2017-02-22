@@ -6,7 +6,6 @@
 package Model;
 
 import exception.NonexistentIDException;
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Set;
 import javax.xml.bind.annotation.XmlRootElement;

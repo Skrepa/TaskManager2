@@ -6,7 +6,7 @@
 package Model;
 
 /**
- *
+ *интерфейс для сериализации
  * @author Daniil
  */
 public interface XMLSerializable {
